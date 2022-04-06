@@ -24,7 +24,7 @@ let history = [];
 playButton.addEventListener("click", play);
 resetButton.addEventListener("click", reset);
 // focus 위치가 선택되었을때 발생 (function(): 익명의 함수)
-userInput.addEventListener("focus",function(){userInput.value= ""};)
+userInput.addEventListener("focus",function(){userInput.value= ""});
 
 // 랜덤번호 함수생성
 function pickRandomNum(){
